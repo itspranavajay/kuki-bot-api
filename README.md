@@ -62,3 +62,25 @@ async function main() {
 }
 main();
 ```
+
+## Instagram Example
+
+``` 
+const Insta = require('@androz2091/insta.js');
+const client = new Insta.Client();
+const fetch = require("node-fetch");
+const Kukibot = require("kuki-bot-api");
+const kukiai  =  new  Kukibot({name: "Pranav", owner: "MoeZilla"});
+ 
+client.on("messageCreate", async message => {
+  if (message.author.id === client.user.id) return;
+
+  message.markSeen();
+
+    let content = message.content;
+      if(!content) return;
+          kukiai.moe(content).then(r => message.reply(r));
+            });
+
+client.login('username', 'password'); 
+```
