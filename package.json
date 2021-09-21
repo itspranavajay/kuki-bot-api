@@ -2,9 +2,9 @@
   "name": "kuki-bot-api",
   "version": "0.0.4",
   "description": "A very lightweight and chatbot with multi language support",
-  "main": "moe/kuki.js",
+  "main": "src/kuki.js",
   "scripts": {
-    "start": "node moe/kuki.js"
+    "start": "node src/kuki.js"
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
