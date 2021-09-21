@@ -1,0 +1,33 @@
+{
+  "name": "kuki-bot-api",
+  "version": "0.0.4",
+  "description": "A very lightweight and chatbot with multi language support",
+  "main": "moe/kuki.js",
+  "scripts": {
+    "start": "node moe/kuki.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "kuki",
+    "chatbot",
+    "ai",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moezilla/kuki-bot-api"
+  },
+  "author": {
+    "name": "moezilla",
+    "age": "15"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "files": [
+    "src"
+  ]
+}
