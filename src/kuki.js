@@ -22,7 +22,7 @@ class Kukibot {
 
     }
 
-    let json = await fetch(`https://kukichatai.vercel.app/message=${encodeURIComponent(message)}`)
+    let json = await fetch(`https://kukichatai.vercel.app/api/message=${encodeURIComponent(message)}`)
 
     let kuki = await json.json()
 
