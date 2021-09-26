@@ -4,6 +4,9 @@
 
 
 **Developers**:
+[Nksama](https://github.com/nksama) -
+[Telegram](https://t.me/NksamaX)
+
 [Pranav Ajay](https://github.com/Moezilla)
 Discord: MoeZilla#4285
 Telegram: PranavAjay
