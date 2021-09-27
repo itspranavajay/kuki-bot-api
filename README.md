@@ -29,6 +29,8 @@ const client = new discord.Client();
 
 const Kukibot = require("kuki-bot-api");
 
+const token = ''; // your discord bot token
+
 const kukiai  =  new  Kukibot({name: "Pranav", owner: "MoeZilla"});
 
 client.on("message", async message => {
@@ -49,7 +51,7 @@ client.on("message", async message => {
 
 });
 
-client.login(token here);
+client.login(token);
 ```
 
 ## Async / Await
