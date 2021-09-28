@@ -1,4 +1,4 @@
-<h1>KUKI-BOT-API</h1>
+<h1><u>KUKI-BOT-API</u></h1>
 
 ### Enjoying kuki-bot-api?
 
