@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node src/kuki.js"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
