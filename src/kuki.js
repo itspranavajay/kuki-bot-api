@@ -22,7 +22,7 @@ class Kukibot {
 
     }
 
-    let json = await fetch(`https://www.kuki-api.tk/api/message=${encodeURIComponent(message)}`)
+    let json = await fetch(`https://www.kuki-api.tk/api/apikey=KUKItg111XlOZ/message=${encodeURIComponent(message)}`)
 
     let kuki = await json.json()
 
